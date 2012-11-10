@@ -41,33 +41,16 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="J2O-7w-fYb" secondAttribute="trailing" constant="703" type="user" id="0hg-kB-vFa"/>
                             <constraint firstItem="J2O-7w-fYb" firstAttribute="bottom" secondItem="5" secondAttribute="bottom" type="user" id="1GY-wi-ipc"/>
-                            <constraint firstItem="J2O-7w-fYb" firstAttribute="leading" secondItem="CxC-uM-iik" secondAttribute="trailing" type="user" id="49a-EM-2tk"/>
-                            <constraint firstItem="IjK-xB-tDg" firstAttribute="leading" secondItem="J2O-7w-fYb" secondAttribute="trailing" constant="-1" type="user" id="FbR-0C-9zC"/>
+                            <constraint firstItem="IjK-xB-tDg" firstAttribute="leading" secondItem="J2O-7w-fYb" secondAttribute="trailing" type="user" id="5Uf-hn-tx6"/>
                             <constraint firstItem="IjK-xB-tDg" firstAttribute="top" secondItem="5" secondAttribute="top" type="user" id="IqW-XL-oDS"/>
                             <constraint firstItem="IjK-xB-tDg" firstAttribute="bottom" secondItem="5" secondAttribute="bottom" type="user" id="K0f-U8-Yhl"/>
                             <constraint firstItem="CxC-uM-iik" firstAttribute="leading" secondItem="5" secondAttribute="leading" type="user" id="KtY-fj-GO6"/>
                             <constraint firstItem="J2O-7w-fYb" firstAttribute="top" secondItem="5" secondAttribute="top" type="user" id="LgQ-Uz-GRX"/>
-                            <constraint firstItem="IjK-xB-tDg" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="5" secondAttribute="leading" constant="240" type="user" id="MAD-xA-hDY"/>
-                            <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="CxC-uM-iik" secondAttribute="trailing" constant="704" type="user" id="PzQ-hs-Ebw"/>
+                            <constraint firstItem="J2O-7w-fYb" firstAttribute="leading" secondItem="CxC-uM-iik" secondAttribute="trailing" type="user" id="QOf-TY-Fx7"/>
                             <constraint firstItem="CxC-uM-iik" firstAttribute="bottom" secondItem="5" secondAttribute="bottom" type="user" id="Spw-R5-bwe"/>
-                            <constraint firstItem="J2O-7w-fYb" firstAttribute="top" secondItem="5" secondAttribute="top" type="user" id="UN2-b6-TKV"/>
-                            <constraint firstItem="IjK-xB-tDg" firstAttribute="trailing" secondItem="5" secondAttribute="trailing" type="default" id="VRm-aI-257"/>
-                            <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="J2O-7w-fYb" secondAttribute="trailing" constant="705" type="user" id="VW8-LP-44U"/>
-                            <constraint firstItem="J2O-7w-fYb" firstAttribute="bottom" secondItem="5" secondAttribute="bottom" type="user" id="ZV1-bl-oi6"/>
-                            <constraint firstItem="CxC-uM-iik" firstAttribute="leading" secondItem="5" secondAttribute="leading" type="user" id="aJv-FB-nDy"/>
-                            <constraint firstItem="J2O-7w-fYb" firstAttribute="leading" secondItem="IjK-xB-tDg" secondAttribute="leading" type="user" id="cdH-fI-LGF"/>
-                            <constraint firstItem="CxC-uM-iik" firstAttribute="bottom" secondItem="5" secondAttribute="bottom" type="user" id="eaX-WC-GvE"/>
-                            <constraint firstItem="J2O-7w-fYb" firstAttribute="leading" relation="lessThanOrEqual" secondItem="5" secondAttribute="leading" constant="320" type="user" id="jgN-cx-ULf"/>
-                            <constraint firstItem="CxC-uM-iik" firstAttribute="leading" secondItem="5" secondAttribute="leading" type="user" id="mWd-Y0-sTz"/>
-                            <constraint firstItem="J2O-7w-fYb" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="5" secondAttribute="leading" constant="240" type="user" id="nqr-Qt-48P"/>
-                            <constraint firstItem="IjK-xB-tDg" firstAttribute="leading" relation="lessThanOrEqual" secondItem="5" secondAttribute="leading" constant="320" type="user" id="pXf-vV-PFe"/>
                             <constraint firstItem="CxC-uM-iik" firstAttribute="top" secondItem="5" secondAttribute="top" type="user" id="sUF-uE-RRc"/>
-                            <constraint firstItem="CxC-uM-iik" firstAttribute="top" secondItem="5" secondAttribute="top" type="user" id="szB-Ch-gHg"/>
-                            <constraint firstItem="IjK-xB-tDg" firstAttribute="bottom" secondItem="5" secondAttribute="bottom" type="user" id="vyw-TE-rIj"/>
-                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="CxC-uM-iik" secondAttribute="trailing" constant="528" type="user" id="wjb-u6-WPy"/>
-                            <constraint firstItem="IjK-xB-tDg" firstAttribute="top" secondItem="5" secondAttribute="top" type="user" id="xOT-I4-tfS"/>
+                            <constraint firstItem="IjK-xB-tDg" firstAttribute="trailing" secondItem="5" secondAttribute="trailing" type="user" id="u6y-3P-QLA"/>
                         </constraints>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
