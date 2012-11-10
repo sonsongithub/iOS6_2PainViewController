@@ -16,7 +16,6 @@
 		1443A9AD164D048B005CC780 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1443A9AC164D048B005CC780 /* Default.png */; };
 		1443A9AF164D048B005CC780 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1443A9AE164D048B005CC780 /* Default@2x.png */; };
 		1443A9B1164D048B005CC780 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1443A9B0164D048B005CC780 /* Default-568h@2x.png */; };
-		1443A9B4164D048B005CC780 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1443A9B2164D048B005CC780 /* MainStoryboard_iPhone.storyboard */; };
 		1443A9B7164D048B005CC780 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1443A9B5164D048B005CC780 /* MainStoryboard_iPad.storyboard */; };
 		1443A9C2164E095B005CC780 /* BrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1443A9C1164E095B005CC780 /* BrowserViewController.m */; };
 		1443A9C5164E0973005CC780 /* URLListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1443A9C4164E0973005CC780 /* URLListViewController.m */; };
@@ -36,7 +35,6 @@
 		1443A9AC164D048B005CC780 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		1443A9AE164D048B005CC780 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		1443A9B0164D048B005CC780 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		1443A9B3164D048B005CC780 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		1443A9B6164D048B005CC780 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		1443A9C0164E095B005CC780 /* BrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowserViewController.h; sourceTree = "<group>"; };
 		1443A9C1164E095B005CC780 /* BrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowserViewController.m; sourceTree = "<group>"; };
@@ -94,7 +92,6 @@
 				1443A9C1164E095B005CC780 /* BrowserViewController.m */,
 				1443A9A9164D048B005CC780 /* AppDelegate.h */,
 				1443A9AA164D048B005CC780 /* AppDelegate.m */,
-				1443A9B2164D048B005CC780 /* MainStoryboard_iPhone.storyboard */,
 				1443A9B5164D048B005CC780 /* MainStoryboard_iPad.storyboard */,
 				1443A9A1164D048B005CC780 /* Supporting Files */,
 			);
@@ -170,7 +167,6 @@
 				1443A9AD164D048B005CC780 /* Default.png in Resources */,
 				1443A9AF164D048B005CC780 /* Default@2x.png in Resources */,
 				1443A9B1164D048B005CC780 /* Default-568h@2x.png in Resources */,
-				1443A9B4164D048B005CC780 /* MainStoryboard_iPhone.storyboard in Resources */,
 				1443A9B7164D048B005CC780 /* MainStoryboard_iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -198,14 +194,6 @@
 				1443A9A4164D048B005CC780 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		1443A9B2164D048B005CC780 /* MainStoryboard_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1443A9B3164D048B005CC780 /* en */,
-			);
-			name = MainStoryboard_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
 		1443A9B5164D048B005CC780 /* MainStoryboard_iPad.storyboard */ = {
@@ -278,6 +266,7 @@
 				GCC_PREFIX_HEADER = "embedViewTest/embedViewTest-Prefix.pch";
 				INFOPLIST_FILE = "embedViewTest/embedViewTest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -289,6 +278,7 @@
 				GCC_PREFIX_HEADER = "embedViewTest/embedViewTest-Prefix.pch";
 				INFOPLIST_FILE = "embedViewTest/embedViewTest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -312,6 +302,7 @@
 				1443A9BF164D048B005CC780 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
