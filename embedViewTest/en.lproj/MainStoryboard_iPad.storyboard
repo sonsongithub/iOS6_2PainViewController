@@ -25,8 +25,8 @@
                             <containerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IjK-xB-tDg" userLabel="Right Pane">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="528" type="user" id="m1c-Ao-jQv"/>
-                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="706" type="user" id="oKa-cY-eba"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="527" type="user" id="m1c-Ao-jQv"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="703" type="user" id="oKa-cY-eba"/>
                                 </constraints>
                                 <connections>
                                     <segue destination="LjI-p1-fKh" kind="embed" id="N8X-S0-j92"/>
@@ -131,7 +131,7 @@
             <objects>
                 <viewController id="Br1-NK-V5W" customClass="BrowserViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="c8F-s9-Zq4">
-                        <rect key="frame" x="0.0" y="64" width="704" height="684"/>
+                        <rect key="frame" x="0.0" y="64" width="703" height="684"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xLg-Pc-lAj">
